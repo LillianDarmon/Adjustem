@@ -16,8 +16,11 @@
 <div class="fixed-top">   
 <nav class="navbar navbar-expand" style="background-color: white;">
     <div class="container-fluid" id="nb">
+        <div id="burg" onclick="sh()"">
+            <img src="images/Composant 2 – 1.png">
+        </div>
         <a class="navbar-brand" href="#">
-            <img src="images/logo_adjustem.png" width="200px">
+            <img src="images/logo_adjustem.png" width="100%">
         </a>
         <div >
             <ul class="navbar-nav">
@@ -32,33 +35,48 @@
                 </div>
                 </li>
             
-                <li class="nav-item me-5" onmouseenter="plus_1()" onmouseleave="moins_1()">
-                    <a class="nav-link-active nb" href="#">La société</a>     
-                </li>
-                <li class="nav-item me-5" onmouseenter="plus_2()" onmouseleave="moins_2()">
+                
+                <li id="menu_" class="nav-item me-5" onmouseenter="plus_2()" onmouseleave="moins_2()">
                     <a class="nav-link-active nb" href="#">Prise en main<img id="menu_2" src="images/Composant 1 – 6.png" style="margin-left: 10px;"></a> 
-                    <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display: ;">
+                    <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
                         <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
                         <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
                             <li><a href="#">Formation</a></li>
                         </ul>  
                     </div>    
                 </li>
+                <li class="nav-item me-5" onmouseenter="plus_1()" onmouseleave="moins_1()">
+                    <a class="nav-link-active nb" href="#">La société</a>     
+                </li>
                 <li class="nav-item me-5" onmouseenter="plus_3()" onmouseleave="moins_3()">
-                    <a class="nav-link-active nb" href="#">Esapce Fabricants<img id="menu_3"  src="images/Composant 1 – 6.png" style="margin-left: 10px;"></a>     
+                    <a class="nav-link-active nb" href="#">Espace Fabricants</a>     
                 </li>
                 <li class="nav-item me-3">
                     <a class="nav-link-active nb" href="#">Contact</a>     
                 </li>
             </ul>
+         
+        </div>
+        
+        <div id="burg_m">
+            <div id="bar" style="background-color: #004EA5;height: 10px;width: 100%;padding-left: 0px;"></div>
+            <div><a href="#">Le logiciel</a></div>
+            <div><a href="#">Les services</a></div>
+            <div><a href="#">Prise en main</a></div>
+            <div><a href="#">Formation</a></div>
+            <div><a href="#">La société</a></div>
+            <div><a href="#">Espace Fabriquants</a></div>
+            <div><a href="#">Contact</a></div>
+
         </div>
     </div>
+  
 </nav>
 <div id="orange_bar">
 </div>
 </div>
 
-<div id="carousel" class="carousel slide c_t" data-bs-ride="carousel">
+<div id="carousel" class="carousel slide c_t" data-bs-ride="carousel" style="width: 100%;">
     <div class="carousel-indicators">
       <button id="btn_c" type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button id="btn_c" type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>

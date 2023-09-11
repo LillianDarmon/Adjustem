@@ -1,6 +1,7 @@
 body{
     font-family: 'League Spartan', sans-serif;
     margin: 0px;
+    width: 100%;
 }
 nav{
     box-shadow: 0px 3px 6px rgb(146, 80, 18);
@@ -116,3 +117,46 @@ text-align: start;
     text-decoration: none;
     color: #ffffff;
     }
+#burg{
+    display: none;
+}
+#burg_m{
+    position: absolute!important; 
+    background-color: #FFFFFFFF;
+    margin-top: 400px;
+    width: 100%;
+    margin-left: 0px;margin-bottom: -100px;
+    margin-left: -48px;
+   display: none;
+}
+.hi{
+    display: none;
+}
+.sh{
+    display: block!important;  
+}
+#burg_m div a{
+    color: #004EA5;
+    text-decoration: none;
+    font-size: 18px;
+}
+#burg_m div:not(#bar){
+    padding: 15px 10px;
+    margin-left: 20px;
+}
+
+    @media (max-width: 1220px) {
+        .navbar-nav{
+            display: none;
+        }
+        #burg{
+            display: block;
+        }
+       
+      }
+      @media (min-width: 1220px) {
+        #burg_m{
+            display: none!important;
+        }
+       
+      }

@@ -22,3 +22,9 @@ function plus_3(){
 function moins_3(){
     document.getElementById("menu_3").src="images/Composant 1 – 6.png";
 }
+
+function sh(){
+    var s =document.getElementById("burg_m")
+    s.classList.toggle("sh");
+
+}
