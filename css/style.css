@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    box-shadow: 0px 3px 6px rgb(146, 80, 18);
+    box-shadow: 0px 3px 6px rgba(73, 73, 73, 0.541);
 }
 .nb{
     font-size: 24px;
@@ -51,6 +51,13 @@ box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
     position:sticky;
     margin-top: 250px;
   
+}
+#test{
+    padding: 20px 20px;
+    background-color: #004EA5;
+    font-size: 32px;color: white;
+    text-decoration: none;
+    border-radius: 2px;
 }
 #btn_c{
 border-radius: 100px;
@@ -138,7 +145,7 @@ text-align: start;
 #burg_m{
     position: absolute!important; 
     background-color: #FFFFFFFF;
-    margin-top: 400px;
+    margin-top: 380px;
     width: 1500px;
     margin-left: -50px;
     margin-bottom: -100px;
@@ -161,7 +168,18 @@ text-align: start;
     padding: 15px 10px;
     margin-left: 20px;
 }
-
+.price_box_m{
+    font-size: 32px;
+}
+#new{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+iframe{
+    width: 650px;
+    height: 270px;
+}
     @media (max-width: 1220px) {
         .navbar-nav{
             display: none;
@@ -169,11 +187,77 @@ text-align: start;
         #burg{
             display: block;
         }
-       
+        .price_box{
+            text-align: center;
+            border-radius: 2px;
+            width:150px;
+            height: 150px;
+            font-size: 18px;
+            color: white;
+        }
+        #test{
+            padding: 20px 20px;
+            background-color: #004EA5;
+            font-size: 24px;color: white;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+        #new{
+            font-size: 18px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .price_box_m{
+            font-size: 24px;
+        }
+        iframe{
+            width: 350px;
+            height: 350px;
+        }
       }
       @media (min-width: 1220px) {
         #burg_m{
             display: none!important;
         }
+     
        
       }
+      @media (max-width: 772px) {
+        footer div div div h1{
+            font-size: 18px!important;
+        }
+        footer div div div p{
+            font-size: 14px!important;
+        }
+        iframe{
+            margin-top: 50px;
+            width: 550px;
+            height: 250px;
+        }
+     
+    }
+    @media (max-width: 576px) {
+      
+        #sn{
+            justify-content: center;
+             display: flex;
+             
+            margin: 30px 10px;
+        }
+        #sn h1{
+            margin-right: 10px;
+        }
+        #logo{
+            width: 75%;
+            margin-left: 20px;
+        }
+        iframe{
+            margin-top: 50px;
+            width: 10%
+            height: 10%;
+        }
+    }
+    @media (max-width: 320px) {
+       
+     
+    }
