@@ -2,6 +2,7 @@ body{
     font-family: 'League Spartan', sans-serif;
     margin: 0px;
     width: 100%;
+    overflow-x: hidden;
 }
 nav{
     box-shadow: 0px 3px 6px rgb(146, 80, 18);
@@ -82,8 +83,15 @@ font-weight: 300;
     color: #004EA5;
 }
 #ok{
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 15px;
+    width: 50px;
+}
+#check ul li{
+    list-style-image: url(../images/Composant\ 3\ –\ 1.png);
+}
+#check ul li::before{
+width: 2px;
 }
 #ttls{
     font-size: 24px;
@@ -93,7 +101,14 @@ font-weight: 300;
 #version{
     background-color: #F8F8F8;
     box-shadow: 0px 3px 6px gray;
-
+}
+.price_box{
+    text-align: center;
+    border-radius: 2px;
+    width:200px;
+    height: 200px;
+    font-size: 24px;
+    color: white;
 }
 #menu_:hover #sous{
 display: block!important;
@@ -124,10 +139,12 @@ text-align: start;
     position: absolute!important; 
     background-color: #FFFFFFFF;
     margin-top: 400px;
-    width: 100%;
-    margin-left: 0px;margin-bottom: -100px;
-    margin-left: -48px;
+    width: 1500px;
+    margin-left: -50px;
+    margin-bottom: -100px;
+    margin-right: 0px;
    display: none;
+ 
 }
 .hi{
     display: none;
