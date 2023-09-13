@@ -4,8 +4,11 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+#tt{
+    overflow-x: hidden;
+}
 nav{
-    box-shadow: 0px 3px 6px rgba(73, 73, 73, 0.541);
+    box-shadow: 0px 3px 6px rgba(73, 73, 73, 0.075);
 }
 .nb{
     font-size: 24px;
@@ -14,6 +17,7 @@ nav{
 }
 #nb{
    margin: 1% 3%;
+   
 }
 #orange_bar{
     height: 25px;
@@ -107,7 +111,7 @@ width: 2px;
 }
 #version{
     background-color: #F8F8F8;
-    box-shadow: 0px 3px 6px gray;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.048);
 }
 .price_box{
     text-align: center;
@@ -124,7 +128,7 @@ display: block!important;
 background-color: #004EA5;
 color: white;
 cursor: pointer;
-box-shadow: 0px 3px 6px rgb(77, 77, 77);
+box-shadow: 0px 3px 6px rgba(77, 77, 77, 0.226);
 }
 #sous ul li{
 list-style: none;
@@ -147,7 +151,7 @@ text-align: start;
     background-color: #FFFFFFFF;
     margin-top: 380px;
     width: 1500px;
-    margin-left: -50px;
+    margin-left: -40px;
     margin-bottom: -100px;
     margin-right: 0px;
    display: none;
@@ -180,6 +184,15 @@ iframe{
     width: 650px;
     height: 270px;
 }
+.footer_p{
+    text-align: start;
+     margin-top: -22px;  
+     font-size: 18px;
+}
+#Coordonnees_txt{
+    margin-left: 50px;
+}
+
     @media (max-width: 1220px) {
         .navbar-nav{
             display: none;
@@ -254,11 +267,16 @@ iframe{
         }
         iframe{
             margin-top: 50px;
-            width: 10%
-            height: 10%;
+            width: 100%;
+            height: 150;
         }
-    }
-    @media (max-width: 320px) {
-       
-     
+        #ttl{
+            font-size: 24px;
+        }
+        #p_title{
+    font-size: 24px;
+        }
+        #Coordonnees_txt{
+            margin-left: -25px;
+        }
     }
