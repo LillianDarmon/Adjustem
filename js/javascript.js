@@ -4,6 +4,8 @@ window.onload = function() {
     // Set your password here
     if (password !== "adjustem") {
         alert("Incorrect password!");
+        // Show the black overlay
+        document.querySelector(".overlay").style.display = "block";
         // Redirect or close the window, you can choose any action
         window.location.href = "about:blank";
     }
