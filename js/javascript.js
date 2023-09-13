@@ -1,3 +1,14 @@
+window.onload = function() {
+    let password = prompt("Please enter the password to view this page:", "");
+
+    // Set your password here
+    if (password !== "adjustem") {
+        alert("Incorrect password!");
+        // Redirect or close the window, you can choose any action
+        window.location.href = "about:blank";
+    }
+}
+
 function plus(){
     document.getElementById("menu").src="images/Ligne 6.png";
 }
