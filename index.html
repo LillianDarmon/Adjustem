@@ -280,6 +280,18 @@
     </div>
 </footer>
 </div>
+<script>
+    window.onload = function() {
+        let password = prompt("Please enter the password to view this page:", "");
+
+        // Set your password here
+        if (password !== "test") {
+            alert("Incorrect password!");
+            // Redirect or close the window, you can choose any action
+            window.location.href = "about:blank";
+        }
+    }
+</script>
     <script src="js/bootstrap.bundle.min.js" ></script>
     <script src="js/javascript.js" ></script>
 </body>
