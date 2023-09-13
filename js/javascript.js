@@ -9,6 +9,9 @@ window.onload = function() {
         // Redirect or close the window, you can choose any action
         window.location.href = "about:blank";
     }
+    else{
+        document.body.classList.remove('overlay');
+    }
 }
 
 function plus(){
