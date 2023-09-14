@@ -214,6 +214,9 @@ iframe{
    
   
     @media (max-width: 1220px) {
+        #p_title{
+            font-size: 32px;
+        }
         .navbar-nav{
             display: none;
         }
@@ -256,6 +259,9 @@ iframe{
        
       }
       @media (max-width: 772px) {
+        #p_title{
+            font-size: 24px;
+        }
         footer div div div h1{
             font-size: 16px!important;
         }
@@ -275,6 +281,9 @@ iframe{
      
     }
     @media (max-width: 576px) {
+        #p_title{
+            font-size: 24px;
+        }
         .price_box{
             text-align: center;
             border-radius: 2px;
