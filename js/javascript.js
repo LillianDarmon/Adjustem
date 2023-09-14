@@ -1,18 +1,18 @@
-//window.onload = function() {
-//    let password = prompt("Please enter the password to view this page:", "");
-//
-//    // Set your password here
-//    if (password !== "adjustem") {
-//        alert("Incorrect password!");
-//        // Show the black overlay
-//        document.querySelector(".overlay").style.display = "block";
-//        // Redirect or close the window, you can choose any action
-//        window.location.href = "about:blank";
-//    }
-//    else{
-//        document.body.classList.remove('overlay');
-//    }
-//}
+window.onload = function() {
+    let password = prompt("Please enter the password to view this page:", "");
+
+    // Set your password here
+    if (password !== "adjustem") {
+        alert("Incorrect password!");
+        // Show the black overlay
+        document.querySelector(".overlay").style.display = "block";
+        // Redirect or close the window, you can choose any action
+        window.location.href = "about:blank";
+    }
+    else{
+        document.body.classList.remove('overlay');
+    }
+}
 
 function plus(){
     document.getElementById("menu").src="../images/Ligne 6.png";
