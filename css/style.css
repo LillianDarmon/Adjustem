@@ -4,6 +4,41 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+h1{
+    font-size: 32px;
+    color: #004EA5;
+}
+h2{
+    font-size: 24px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+    font-size: 18px;
+}
+input{
+    margin: 10px 20px;
+}
+label{
+    font-weight: 300;
+    font-size: 18px;
+}
+.input_txt{
+margin-left: -0px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #F8F8F8;
+}
+textarea{margin-left: -0px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #F8F8F8;}
+
+.footer_a{
+    color: #FF983E;
+    text-decoration: none;
+}
 #tt{
     overflow-x: hidden;
 }
@@ -83,6 +118,23 @@ margin: 7px;
    color: white;
    border-radius: 1px;
    padding: 10px 15px;
+}
+#ep_b{
+    background-color: #004EA5; 
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    padding: 10px 15px;
+    font-size: 18px; 
+
+ }
+ #ep_o{
+    background-color: #FF983E; 
+    text-decoration: none;
+    color: white;
+    border-radius: 1px;
+    padding: 10px 15px;
+font-size: 18px; 
 }
 #p_title{
     margin: 90px;
@@ -192,7 +244,7 @@ iframe{
 #Coordonnees_txt{
     margin-left: 50px;
 }
-.overlay {
+/*.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -201,7 +253,7 @@ iframe{
     background-color: rgba(0, 0, 0, 0.7); 
     z-index: 9999;
     display: none;
-}
+}*/
 @media (max-width: 1500px) {
     footer div div div h1{
         font-size: 18px!important;
