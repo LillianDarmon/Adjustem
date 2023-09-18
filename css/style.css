@@ -244,6 +244,23 @@ iframe{
 #Coordonnees_txt{
     margin-left: 50px;
 }
+#form_ttl{
+    display: flex;
+    width: 100%;
+    margin-top: -300px;
+    position: absolute;
+}
+#form_ttl_s{
+    color: #004EA5;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 25px 50px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.048);
+}
 /*.overlay {
     position: fixed;
     top: 0;
@@ -266,6 +283,16 @@ iframe{
    
   
     @media (max-width: 1220px) {
+        #ep_b{
+font-size: 14px;
+        }
+        #ep_o{
+            font-size: 14px;
+                    }
+        label{
+            font-weight: 300;
+            font-size: 18px;
+        }
         #p_title{
             font-size: 32px;
         }
@@ -311,6 +338,22 @@ iframe{
        
       }
       @media (max-width: 772px) {
+        #form_ttl{
+            margin-top: -325px!important;
+        }
+        #form_ttl_s{
+            font-size: 28px!important;
+        }
+        label{
+            font-size: 13px;
+        }
+        h1{
+            font-size: 24px;
+        }
+        p{
+            font-size: 13px;
+        }
+      
         #p_title{
             font-size: 24px;
         }
@@ -333,8 +376,18 @@ iframe{
      
     }
     @media (max-width: 576px) {
+        #form_ttl{
+            margin-top: -290px!important;
+        }
+        #form_ttl_s{
+            font-size: 24px!important;
+            padding: 10px 25px!important;
+        }
         #p_title{
             font-size: 24px;
+        }
+        #form{
+            padding: 25px!important;
         }
         .price_box{
             text-align: center;
@@ -371,6 +424,7 @@ iframe{
         }
         #p_title{
     font-size: 24px;
+    margin: 20px 0px;
         }
         #Coordonnees_txt{
             margin-left: -20px;
