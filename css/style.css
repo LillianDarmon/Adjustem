@@ -298,6 +298,11 @@ object-fit: cover;
     font-weight: 300;
     color: gray;
 }
+#ml{
+    font-weight: 300;
+    margin-top: -50px;
+    margin-left: 150px;
+}
 /*.overlay {
     position: fixed;
     top: 0;
@@ -322,7 +327,17 @@ object-fit: cover;
  
    
   
-    @media (max-width: 1220px) {
+    @media (max-width: 1200px) {
+        #block_f{
+            background-image: url(../images/formation.jpg);
+            background-size: cover;
+        }
+        #block_f div{
+            backdrop-filter: blur(10px);
+        }
+        #img_f{
+            display: none;
+        }
         #block_l_up{
             margin: 0px 50px;
         }
@@ -381,6 +396,61 @@ font-size: 14px;
        
       }
       @media (max-width: 772px) {
+        #block_r_r{
+            background-color: #C50E1F;
+            padding: 20px;
+        }
+        #block_r_r div h1 {
+            color: white;
+        }
+        #block_r_r div h2 {
+            color: rgb(255, 255, 255);
+        }
+        #block_r_r div ul li {
+            color: white;
+        }
+        #block_r_p{
+            background-color: #F8C39C;
+            padding: 20px;
+        }
+        #block_r_p div h1 {
+            color: white;
+        }
+        #block_r_p div h2 {
+            color: rgb(255, 255, 255);
+        }
+        #block_r_p div ul li {
+            color: white;
+        }
+        #block_r_lo{
+            background-color: #F6AD6E;
+            padding: 20px;
+        }
+        #block_r_lo div h1 {
+            color: white;
+        }
+        #block_r_lo div h2 {
+            color: rgb(255, 255, 255);
+        }
+        #block_r_lo div p {
+            color: white;
+        }
+        #block_r_o{
+            background-color: #EE7F00;
+            padding: 20px;
+        }
+        #block_r_o div h1 {
+            color: white;
+        }
+        #block_r_o div h2 {
+            color: rgb(255, 255, 255);
+        }
+        #block_r_o div p {
+            color: white;
+        }
+        #block{
+            display: none!important;
+        }
         .td_b{
             font-size: 16px;
         }
@@ -404,6 +474,9 @@ font-size: 14px;
         }
         h1{
             font-size: 24px;
+        }
+        h2{
+            font-size: 18px;
         }
         p{
             font-size: 13px;
@@ -431,6 +504,11 @@ font-size: 14px;
      
     }
     @media (max-width: 576px) {
+        #ml{
+            font-size: 10px;
+            margin-left: 15px;
+
+        }
         .img_exemple{
             width: 175px;
             height: 100px;
@@ -455,7 +533,7 @@ font-size: 14px;
             padding: 10px 25px!important;
         }
         #p_title{
-            font-size: 24px;
+            font-size: 18px!important;
         }
         #form{
             padding: 25px!important;
