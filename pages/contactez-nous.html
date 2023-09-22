@@ -17,74 +17,85 @@
 </head>
 <body class="overlay">
 <div id="tt">
-<nav class="navbar navbar-expand fixed-top" style="background-color: white;">
-    <div class="container-fluid" id="nb">
-        <div id="burg" onclick="sh()">
-            <img src="../images/Composant 2 – 1.png">
-        </div>
-        <a class="navbar-brand" href="../index.html" >
-            <img id="logo" src="../images/logo_adjustem.png">
-        </a>
-        <div >
-            <ul class="navbar-nav">
-                <li id="menu_" class="nav-item me-5" onmouseenter="plus()" onmouseleave="moins()">
-                    <a class="nav-link-active nb">Solutions<img id="menu" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a>  
-                    <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
-                    <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
-                    <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
-                        <li><a href="../pages/logiciel.html">Le logiciel</a></li>
-                        <li><a href="../pages/services.html">Les services</a></li>
-                    </ul>  
-                </div>
-                </li>
-            
-                
-                <li id="menu_" class="nav-item me-5" onmouseenter="plus_2()" onmouseleave="moins_2()">
-                    <a class="nav-link-active nb" >Assistance<img id="menu_2" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a> 
-                    <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
-                        <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
-                        <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
-                            <li><a href="../pages/formation.html">Formation</a></li>
-                            <li><a href="../pages/prise_en_main.html">Prise en main</a></li>
+    <nav class="navbar navbar-expand fixed-top" style="background-color: white;">
+        <div class="container-fluid" id="nb">
+            <div id="burg" onclick="sh()">
+                <img src="../images/Composant 2 – 1.png">
+            </div>
+            <a class="navbar-brand" href="../index.html" >
+                <img id="logo" src="../images/logo_adjustem.png">
+            </a>
+            <div >
+                <ul class="navbar-nav">
+                    <li id="menu_" class="nav-item me-5">
+                        <a href="../index.html" class="nav-link-active nb">Accueil</a>  
+                    </li>
+                    <li id="menu_" class="nav-item me-5">
+                        <a href="../pages/logiciel.html" class="nav-link-active nb">Le logiciel</a>  
+                    </li>
 
+                    <li id="menu_" class="nav-item me-5" onmouseenter="plus()" onmouseleave="moins()">
+                        <a class="nav-link-active nb" href="../pages/societe.html">La société<img id="menu" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a> 
+                        <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
+                            <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
+                            <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
+                                <li><a href="">Présentation</a></li>
+                                <li><a href="">Coordonnées</a></li>
+                                <li><a href="">Organisation</a></li>
+                            </ul>  
+                        </div>    
+                    </li>
+
+                    <li id="menu_" class="nav-item me-5" onmouseenter="plus_2()" onmouseleave="moins_2()">
+                        <a href="../pages/services.html" class="nav-link-active nb">Les services<img id="menu_2" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a>  
+                        <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
+                            <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
+                            <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
+                                <li><a href="../pages/services.html">Développement</a></li>
+                                <li><a href="../pages/services.html#Engagement">Engagement</a></li>
+                                <li><a href="../pages/services.html#Support">Support technique</a></li>
                         </ul>  
-                    </div>    
-                </li>
-                <li class="nav-item me-5" onmouseenter="plus_1()" onmouseleave="moins_1()">
-                    <a class="nav-link-active nb" href="../pages/societe.html">La société</a>     
-                </li>
-                <li id="menu_"  class="nav-item me-5" onmouseenter="plus_3()" onmouseleave="moins_3()">
-                    <a class="nav-link-active nb" href="../pages/espace_fabriquant.html">Espace Fabricants<img id="menu_3" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a> 
-                    <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
-                        <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
-                        <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
-                            <li><a href="../pages/espace_fabriquant.html#lettre">Lettre d'information</a></li>
-                            <li><a href="../pages/espace_fabriquant.html#referencement">Référencement</a></li>
-                            <li><a href="../pages/espace_fabriquant.html#contact">Contact</a></li>
-                        </ul>   
-                    </div>     
-                </li>
-                <li class="nav-item me-3">
-                    <a class="nav-link-active nb" href="../pages/contactez-nous.html">Contact</a>     
-                </li>
-            </ul>
-         
+                    </div>
+                    </li>
+                    <li id="menu_"  class="nav-item me-5" onmouseenter="plus_3()" onmouseleave="moins_3()">
+                        <a class="nav-link-active nb" href="../pages/espace_fabriquant.html">Espace Fabricants<img id="menu_3" src="../images/Composant 1 – 6.png" style="margin-left: 10px;"></a> 
+                        <div id="sous" style="background-color: #FFFFFFFF;position: absolute; width: 170px;display:none ;">
+                            <div style="background-color: #004EA5;height: 10px;width: 100%;"></div> 
+                            <ul style="font-weight: 300;color: #004EA5;list-style-type: none;font-size: 18px;padding-left: 0px;">
+                                <li><a href="../pages/espace_fabriquant.html#lettre">Lettre d'information</a></li>
+                                <li><a href="../pages/espace_fabriquant.html#referencement">Référencement</a></li>
+                                <li><a href="../pages/espace_fabriquant.html#contact">Contact</a></li>
+                            </ul>   
+                        </div>     
+                    </li>
+                    <li id="menu_" class="nav-item me-5">
+                        <a href="../pages/formation.html" class="nav-link-active nb">Formation</a>  
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link-active nb" href="../pages/prise_en_main.html">Prise en main</a>     
+                    </li>
+                   
+                    <li class="nav-item me-3">
+                        <a class="nav-link-active nb" href="../pages/contactez-nous.html">Contact</a>     
+                    </li>
+                </ul>
+             
+            </div>
+            
+            <div id="burg_m">
+                <div id="bar" style="background-color: #004EA5;height: 10px;width: 100%;padding-left: 0px;"></div>
+                <div><a href="pages/logiciel.html">Le logiciel</a></div>
+                <div><a href="pages/services.html">Les services</a></div>
+                <div><a href="pages/prise_en_main.html">Prise en main</a></div>
+                <div><a href="pages/formation.html">Formation</a></div>
+                <div><a href="pages/societe.html">La société</a></div>
+                <div><a href="pages/espace_fabriquant.html">Espace Fabriquants</a></div>
+                <div><a href="pages/contactez-nous.html">Contact</a></div>
+    
+            </div>
         </div>
-        
-        <div id="burg_m">
-            <div id="bar" style="background-color: #004EA5;height: 10px;width: 100%;padding-left: 0px;"></div>
-            <div><a href="../pages/logiciel.html">Le logiciel</a></div>
-            <div><a href="../pages/services.html">Les services</a></div>
-            <div><a href="../pages/prise_en_main.html">Prise en main</a></div>
-            <div><a href="../pages/formation.html">Formation</a></div>
-            <div><a href="../pages/societe.html">La société</a></div>
-            <div><a href="../pages/espace_fabriquant.html">Espace Fabriquants</a></div>
-            <div><a href="../pages/contactez-nous.html">Contact</a></div>
-
-        </div>
-    </div>
-  
-</nav>
+      
+    </nav>
 <div style="margin-top: 100px;">&nbsp</div>
 
 <CENTER>    
@@ -230,10 +241,10 @@
             </div>
             <div class="col-sm col-6">
                 <h1 style="color: white; font-size: 28px; margin-bottom: 25px;">Coordonnées</h1>
-                <p class="footer_p footer_a"> ADJUSTEM SARL</a></p>
-                <p class="footer_p footer_a"> 53 Avenue de l'Europe</a></p>
-                <p class="footer_p footer_a"> 80080 AMIENS</a></p>
-                <p class="footer_p footer_a"> Tél : 03 22 93 31 31</a></p>
+                <p class="footer_p footer_a" style="color: white;"> ADJUSTEM SARL</a></p>
+                <p class="footer_p footer_a"style="color: white;"> 53 Avenue de l'Europe</a></p>
+                <p class="footer_p footer_a"style="color: white;"> 80080 AMIENS</a></p>
+                <p class="footer_p footer_a"style="color: white;"> Tél : 03 22 93 31 31</a></p>
             </div>
             <div id="sn" class="col-sm col-12" style="">
                 

@@ -15,7 +15,7 @@
 //}
 
 function plus_i(){
-    document.getElementById("menu").src="images/Ligne 6.png";
+    document.getElementById("menu").src="../images/Ligne 6.png";
 }
 function moins_i(){
     document.getElementById("menu").src="images/Composant 1 – 6.png";
@@ -27,6 +27,7 @@ function moins_1_i(){
     document.getElementById("menu_1").src="images/Composant 1 – 6.png";
 }
 function plus_2_i(){
+    console.log("aaaaaaaaaa")
     document.getElementById("menu_2").src="images/Ligne 6.png";
 }
 function moins_2_i(){
